@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>txtによる造形</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <div id="wrapper">
+        <div id="map"></div>
+    </div>
+</div>
+
+<img src="item/bg.jpg" height="868" width="1157" alt=""/>
+<div id="custom-cursor"></div>
+<ul class="btns">
+    <button id="zoomIn">+</button>
+    <button id="zoomOut">-</button>
+</ul>
+<ul id="activeList"></ul>
+<script src="base.js"></script>
+<script src="drag.js"></script>
+<script src="zoom.js"></script>
+</body>
+</html>
