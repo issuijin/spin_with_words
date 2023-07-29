@@ -66,5 +66,5 @@ function Typing(delay = 100) {
     type();
 }
 
-setInterval(Typing, 40);  // Run the Typing function every 2 seconds
+setInterval(Typing, 140);  // Run the Typing function every 2 seconds
 
